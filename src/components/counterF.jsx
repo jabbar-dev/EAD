@@ -4,7 +4,7 @@ function CounterF() {
 
     const[counters, setCounters] = useState(
         [{id:1, value:0},
-        {id:2},{value:0},
+        {id:2},{value:3},
         {id:3},{value:0},
         {id:4},{value:0},])
         
@@ -14,7 +14,7 @@ function CounterF() {
     const increement = ()=>{
         
 
-        const {id, value} = counters[0];
+        const {id, value} = counters;
         console.log(id,value);
 
     }
@@ -23,33 +23,8 @@ function CounterF() {
     return ( 
         <>
 
-        <span>
-            {counters[0].value}
-        </span>
+        
 
-        <button className = "btn btn-primary" onClick={increement}>Increement</button>
-        <br/>
-
-        <span>
-            {count}
-        </span>
-
-        <button className = "btn btn-primary" onClick={increement}>Increement</button>
-        <br/>
-
-        <span>
-            {count}
-        </span>
-
-        <button className = "btn btn-primary" onClick={increement}>Increement</button>
-        <br/>
-
-        <span>
-            {count}
-        </span>
-
-        <button className = "btn btn-primary" onClick={increement}>Increement</button>
-        <br/>
 
 
         {/* <h1>
