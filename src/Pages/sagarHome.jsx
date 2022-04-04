@@ -2,7 +2,7 @@ import React from 'react'
 import { BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
 
 
-function Home() {
+function SagarHome() {
     return ( 
     
     
@@ -15,8 +15,8 @@ function Home() {
 
     
     <h1>
-        This is Home Component
+        This is SagarHome Component
         </h1></> );
 }
 
-export default Home;
+export default SagarHome;
