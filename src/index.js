@@ -10,11 +10,12 @@ import CountersTrail from './components/counters'
 import APICall from './components/apiCall'
 import Formik from './components/formikPrac'
 import ReactRouter from './components/reactRouter'
+import UseReducer from './components/useReducer'
 
 
 ReactDOM.render(
   
-    <ReactRouter/>,
+    <UseReducer/>,
   document.getElementById('root')
   
 );

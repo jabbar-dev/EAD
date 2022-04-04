@@ -21,8 +21,8 @@ function ReactRouter() {
 
             <Routes>
                 <Route path="/" element={<Home></Home>}/>
-                <Route path="/about" element={<About/>}>
-                    <Route path="about/" element={<SagarHome/>}/>
+                <Route path="/about/:username" element={<About/>}>
+                    <Route path="sagarHome/" element={<SagarHome/>}/>
 
                     
 

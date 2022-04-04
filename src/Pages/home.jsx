@@ -1,8 +1,11 @@
 import React from 'react'
-import { BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
+import { useNavigate, BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
 
 
 function Home() {
+    
+    let navigate = useNavigate();
+    
     return ( 
     
     
@@ -10,11 +13,10 @@ function Home() {
     
     
     <>
-
-
+    <button className='btn btn-success' onClick={()=>{navigate("/about")}}>Go To About</button>
 
     
-    <h1>
+    <h1>    
         This is Home Component
         </h1></> );
 }
