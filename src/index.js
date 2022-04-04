@@ -8,11 +8,12 @@ import Counter from './components/counter'
 import CounterF from './components/counterF'
 import CountersTrail from './components/counters'
 import APICall from './components/apiCall'
+import Formik from './components/formikPrac'
 
 
 ReactDOM.render(
   
-    <APICall />,
+    <Formik/>,
   document.getElementById('root')
   
 );
