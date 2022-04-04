@@ -9,11 +9,12 @@ import CounterF from './components/counterF'
 import CountersTrail from './components/counters'
 import APICall from './components/apiCall'
 import Formik from './components/formikPrac'
+import ReactRouter from './components/reactRouter'
 
 
 ReactDOM.render(
   
-    <Formik/>,
+    <ReactRouter/>,
   document.getElementById('root')
   
 );
