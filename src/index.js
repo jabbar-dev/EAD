@@ -11,11 +11,12 @@ import APICall from './components/apiCall'
 import Formik from './components/formikPrac'
 import ReactRouter from './components/reactRouter'
 import UseReducer from './components/useReducer'
+import UserEffect from './components/useEffect';
 
 
 ReactDOM.render(
   
-    <UseReducer/>,
+    <UserEffect/>,
   document.getElementById('root')
   
 );
