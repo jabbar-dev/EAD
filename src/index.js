@@ -12,11 +12,12 @@ import Formik from './components/formikPrac'
 import ReactRouter from './components/reactRouter'
 import UseReducer from './components/useReducer'
 import UserEffect from './components/useEffect';
+import UseRef from './components/useRef';
 
 
 ReactDOM.render(
   
-    <UserEffect/>,
+    <UseRef/>,
   document.getElementById('root')
   
 );
